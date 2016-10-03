@@ -1,0 +1,75 @@
+.jumbotron {
+    background-color: #f4511e;
+    color: #ffffff;
+    padding: 7em 10em;
+}
+
+.container-fluid {
+    padding: 4em 3.5em;
+}
+
+.bg-grey {
+    background-color: #dddddd;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.main {
+    font-size: 4em;
+}
+
+.secondary {
+    font-size: 1.5em;
+}
+
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: #FFF;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-custom {
+    background-color: #f4511e;
+    border-radius: 0px;
+    color: #eeeeee;
+}
+
+.btn-clear:hover {
+    
+}
+
+.arrowalign {
+    top: 50%;
+}
+
+.arrowalign:hover {
+    vertical-align: middle;
+}
+
+.carousel-control {
+    color: #fff;
+    bottom: auto;
+    padding-top: 0px;
+    width: 25%;
+    height: 100%;
+    text-shadow: none;
+    opacity: 0.9;
+}
+
+.carousel-holder {
+    width: 100%;
+}

@@ -1,0 +1,73 @@
+/* line 1, C:/Users/William/Desktop/DnD/sass/style.scss */
+.jumbotron {
+  background-color: #f4511e;
+  color: #ffffff;
+  padding: 7em 10em; }
+
+/* line 7, C:/Users/William/Desktop/DnD/sass/style.scss */
+.container-fluid {
+  padding: 4em 3.5em; }
+
+/* line 11, C:/Users/William/Desktop/DnD/sass/style.scss */
+.bg-grey {
+  background-color: #dddddd; }
+
+/* line 15, C:/Users/William/Desktop/DnD/sass/style.scss */
+.logo {
+  color: #f4511e;
+  font-size: 200px; }
+
+/* line 20, C:/Users/William/Desktop/DnD/sass/style.scss */
+.logo-small {
+  color: #f4511e;
+  font-size: 50px; }
+
+/* line 25, C:/Users/William/Desktop/DnD/sass/style.scss */
+.main {
+  font-size: 4em; }
+
+/* line 29, C:/Users/William/Desktop/DnD/sass/style.scss */
+.secondary {
+  font-size: 1.5em; }
+
+/* line 33, C:/Users/William/Desktop/DnD/sass/style.scss */
+.main-text {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  color: #FFF; }
+
+/* line 40, C:/Users/William/Desktop/DnD/sass/style.scss */
+.btn-min-block {
+  min-width: 170px;
+  line-height: 26px; }
+
+/* line 45, C:/Users/William/Desktop/DnD/sass/style.scss */
+.btn-custom {
+  background-color: #f4511e;
+  border-radius: 0px;
+  color: #eeeeee; }
+
+/* line 55, C:/Users/William/Desktop/DnD/sass/style.scss */
+.arrowalign {
+  top: 50%; }
+
+/* line 59, C:/Users/William/Desktop/DnD/sass/style.scss */
+.arrowalign:hover {
+  vertical-align: middle; }
+
+/* line 63, C:/Users/William/Desktop/DnD/sass/style.scss */
+.carousel-control {
+  color: #fff;
+  bottom: auto;
+  padding-top: 0px;
+  width: 25%;
+  height: 100%;
+  text-shadow: none;
+  opacity: 0.9; }
+
+/* line 73, C:/Users/William/Desktop/DnD/sass/style.scss */
+.carousel-holder {
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
