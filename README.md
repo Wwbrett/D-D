@@ -1,3 +1,8 @@
-# D&D Custom Site
+# Readme.md
+### By William Brett
+Small project I'm working on.
 
-This site will be for DMs who need a set of tools as well as for players who want to keep track a little easier
+### Libraries used:
+* Bootstrap
+* Hover.css
+
