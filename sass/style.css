@@ -1,34 +1,60 @@
-/* line 1, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
-.jumbotron {
-  background-color: #f4511e;
-  color: #ffffff;
-  padding: 8em 10em;
-  height: 100vh; }
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+/* line 4, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
+html, body {
+  height: 100%; }
 
-/* line 8, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 8, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
 .container-fluid {
   padding: 4em 3.5em; }
 
-/* line 12, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 12, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
 .bg-grey {
   background-color: #dddddd; }
 
-/* line 16, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 16, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
 .logo {
   color: #f4511e;
   font-size: 200px; }
 
-/* line 21, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 21, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
 .logo-small {
   color: #f4511e;
   font-size: 50px; }
 
-/* line 26, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 26, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
 .main {
   font-size: 4em; }
 
-/* line 30, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 30, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
 .secondary {
   font-size: 1.5em; }
+
+/* line 34, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
+.heading {
+  font-family: 'Antic Slab', serif;
+  font-size: 80px;
+  color: #DDCCEE; }
+
+/* line 40, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
+.lead {
+  color: #DDCCEE; }
+
+/* line 44, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
+.custom {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  background-color: #110022;
+  color: #eee;
+  overflow: hidden; }
+
+/* line 53, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
+.custom a {
+  color: #efefef;
+  text-decoration: none; }
+
+/* line 58, C:/Users/wbrett200/Desktop/Wwbrett.github.io-master/sass/style.scss */
+.v-center {
+  margin-top: 7%; }
 
 /*# sourceMappingURL=style.css.map */
