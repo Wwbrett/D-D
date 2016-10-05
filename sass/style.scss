@@ -18,12 +18,7 @@ body {
 
 .logo {
     color: #c81717;
-    font-size: 200px;
-}
-
-.logo-small {
-    color: #c81717;
-    font-size: 50px;
+    font-size: 15em;
 }
 
 .main {
@@ -75,5 +70,11 @@ body {
     }
     .top-nav-collapse {
         padding: 0;
+    }    
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 5em;
     }
 }
