@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab|Raleway);
 
 @import './partials/button';
 
@@ -8,6 +8,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Raleway';
 }
 
 .container-fluid {
@@ -37,13 +38,15 @@ body {
 }
 
 .heading {
-    font-family: 'Antic Slab', serif;
-    font-size: 80px;
+    font-family: 'Raleway';
+    font-size: 8em;;
     color: #DDCCEE;
 }
 
 .lead {
     color: #DDCCEE;
+    font-size: 2em;
+    font-family: 'Raleway';
 }
 
 .custom {
