@@ -1,59 +1,160 @@
 @import url(http://fonts.googleapis.com/css?family=Antic+Slab);
-/* line 3, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
-html, body {
+/* line 1, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_button.scss */
+.btn-custom {
+  border-radius: 0px;
+  padding: 5px 35px;
+  background-color: #333;
+  color: #eee;
+  margin: 0;
+  border: 0px solid transparent; }
+
+/* line 10, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_button.scss */
+.btn-custom:active {
+  -webkit-box-shadow: inset 0 0px 0px transparent;
+  box-shadow: inset 0 0px 0px transparent; }
+
+/* line 15, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_button.scss */
+.btn-custom:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px; }
+
+/* Underline From Left */
+/* line 2, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_underline-from-left.scss */
+.underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  overflow: hidden; }
+
+/* line 13, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_underline-from-left.scss */
+.underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #c81717;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+/* line 29, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_underline-from-left.scss */
+.underline-from-left:hover:before, .underline-from-left:focus:before, .underline-from-left:active:before {
+  right: 0; }
+
+/* Sweep To Right */
+/* line 2, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_sweep-to-right.scss */
+.sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+/* line 16, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_sweep-to-right.scss */
+.sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #c81717;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+/* line 36, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_sweep-to-right.scss */
+.sweep-to-right:hover, .sweep-to-right:focus, .sweep-to-right:active {
+  color: white; }
+
+/* line 39, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/partials/_sweep-to-right.scss */
+.sweep-to-right:hover:before, .sweep-to-right:focus:before, .sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
+/* line 9, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+html,
+body {
   height: 100%; }
 
-/* line 7, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 13, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .container-fluid {
   padding: 4em 3.5em; }
 
-/* line 11, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 17, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .bg-grey {
   background-color: #dddddd; }
 
-/* line 15, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 21, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .logo {
-  color: #f4511e;
+  color: #c81717;
   font-size: 200px; }
 
-/* line 20, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 26, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .logo-small {
-  color: #f4511e;
+  color: #c81717;
   font-size: 50px; }
 
-/* line 25, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 31, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .main {
   font-size: 4em; }
 
-/* line 29, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 35, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .secondary {
   font-size: 1.5em; }
 
-/* line 33, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 39, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .heading {
   font-family: 'Antic Slab', serif;
   font-size: 80px;
   color: #DDCCEE; }
 
-/* line 39, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 45, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .lead {
   color: #DDCCEE; }
 
-/* line 43, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 49, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .custom {
   margin: 0 auto;
   width: 100%;
   min-height: 100%;
-  background-color: #110022;
+  background-color: #222;
+  background: linear-gradient(to top right, #222, #111);
   color: #eee;
   overflow: hidden; }
 
-/* line 52, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 59, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .custom a {
   color: #efefef;
   text-decoration: none; }
 
-/* line 57, C:/Users/wbrett200/Desktop/Wwbrett.github.io/sass/style.scss */
+/* line 64, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .v-center {
   margin-top: 7%; }
 
