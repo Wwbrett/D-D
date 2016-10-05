@@ -13,95 +13,381 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- SASS Stylesheet -->
     <link rel="stylesheet" href="sass/style.css">
+
+    <script src="https://use.fontawesome.com/824c4f56de.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid custom">
-        <div class="row">
-            <div class="col-lg-12 text-center v-center">
-                <h1 class="heading">Hello Landing</h1>
-                <p class="lead">Words</p>
-                <button class="btn btn-custom btn-lg sweep-to-right">Lorem</button>
-                <br>
-                <br>
-                <img class="heroImage" src="http://placehold.it/500x500" alt="heroImage">
-                <br>
-                <br>
-                <div class="alert alert-info alert-dismissible" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    This site is still under construction. Remove this message by pressing the 'x' <strong>----></strong>
-                </div>
-                <!-- alert alert-info alert-dismissable -->
+
+    <!-- *************** -->
+    <!-- NAVIGATION BAR -->
+    <!-- *************** -->
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
             </div>
-            <!-- col-lg-12 text-center v-center -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="#about" class="page-scroll">About</a>
+                    </li>
+                    <li>
+                        <a href="#init" class="page-scroll">Init</a>
+                    </li>
+                    <li>
+                        <a href="#health" class="page-scroll">Health</a>
+                    </li>
+                    <li>
+                        <a href="#progress" class="page-scroll">Progress</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- navbar-collapse -->
         </div>
-        <!-- row -->
-    </div>
-    <!-- Container-fluid custom -->
+        <!-- container -->
+    </nav>
 
+    <!-- *************** -->
+    <!-- TOP OF THE PAGE -->
+    <!-- *************** -->
 
-    <div class="container-fluid bg-grey">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2>About</h2>
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum</p>
-                <button class="btn btn-custom btn-lg sweep-to-right">Woot!</button>
-            </div>
-            <!-- col-sm-8 -->
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
-            </div>
-            <!-- col-sm-4 -->
-        </div>
-        <!-- row -->
-    </div>
-    <!-- container-fluid bg-grey -->
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-globe logo"></span>
-            </div>
-            <!-- col-sm-4 -->
-            <div class="col-sm-8">
-                <h2>More Shit</h2>
-                <h4>Lorem Ipsum</h4>
-                <p><strong>Lorem Ipsum</strong></p>
-            </div>
-            <!-- col-sm-8 -->
-        </div>
-        <!-- row -->
-    </div>
-    <!-- container-fluid -->
-
-    <div class="container-fluid bg-grey">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Progress</h2>
-                <p>This website is under development, this bar tracks how har along that development is: </p>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-success" role="progressbar" style="width: 25%">
-                        25%
+    <section id="page-top">
+        <div class="container-fluid custom">
+            <div class="row">
+                <div class="col-lg-12 text-center v-center">
+                    <h1 class="heading">Hello Landing</h1>
+                    <p class="lead">Words</p>
+                    <button class="btn btn-custom btn-lg sweep-to-right">Lorem</button>
+                    <br>
+                    <br>
+                    <img class="heroImage" src="http://placehold.it/500x500" alt="heroImage">
+                    <br>
+                    <br>
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        This site is still under construction. Remove this message by pressing the 'x' <strong>----></strong>
                     </div>
-                    <!--progress-bar progress-bar-success  -->
+                    <!-- alert alert-info alert-dismissable -->
                 </div>
-                <!-- progress -->
+                <!-- col-lg-12 text-center v-center -->
             </div>
-            <!-- col-sm-12 -->
+            <!-- row -->
         </div>
-        <!-- row -->
-    </div>
-    <!-- container-fluid bg-grey -->
+        <!-- Container-fluid custom -->
+    </section>
 
 
+    <section id="about">
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>About</h2>
+                    <h4>This will be the part about me and what the program does.</h4>
+                    <p>More information... and a button that will link to my social media or some crap like that, I don't know. ----> also an appropriate picture/ glyphicon</p>
+                    <button class="btn btn-custom btn-lg sweep-to-right">Link</button>
+                </div>
+                <!-- col-sm-8 -->
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-signal logo"></span>
+                </div>
+                <!-- col-sm-4 -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container-fluid bg-grey -->
+    </section>
+    <!-- ****************** -->
+    <!-- INITIATIVE TRACKER -->
+    <!-- ****************** -->
+    <section id="init">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-globe logo"></span>
+                </div>
+                <!-- col-sm-4 -->
+                <div class="col-sm-8">
+                    <h2>Initiative Table</h2>
+                    <h4>This will be where the initiative table will be placed. I would do all of this using php includes to make the code neater, but then github pages won't work</h4>
+
+                    <div id="table" class="table-editable">
+                        <table class="table initTable">
+                            <tr>
+                                <th>Name</th>
+                                <th>Value</th>
+                                <th>Move</th>
+                                <th>Delete</th>
+                                <th>
+                                    <span class="table-add">
+                            <i class="fa fa-plus-circle"></i>
+                        </span>
+                                </th>
+                                <th>
+                                    <FORM>
+                                        <a class="table-add" onclick="history.go(0)">
+                                            <i class="fa fa-refresh"></i>
+                                        </a>
+                                    </FORM>
+                                </th>
+                            </tr>
+                            <tr>
+                                <!-- BEAKER -->
+                                <td contenteditable="true">Ramas</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!-- EUAN -->
+                                <td contenteditable="true">Theren</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
 
 
+                            <tr>
+                                <!-- CAT -->
+                                <td contenteditable="true">Matilda</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!-- PETER -->
+                                <td contenteditable="true">Kasper</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!-- CARYS -->
+                                <td contenteditable="true">Lizard</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!-- FINGAL -->
+                                <td contenteditable="true">Fingal</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!-- NUALA -->
+                                <td contenteditable="true">Nuala</td>
+                                <td contenteditable="true">20</td>
+                                <td>
+                                    <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <!-- This is the clonable table line -->
+                            <tr class="hide">
+                                <td contenteditable="true">Untitled</td>
+                                <td contenteditable="true">1</td>
+                                <td>
+                                    <span class="table-up">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                    <span class="table-down">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="table-remove">
+                                        <i class="fa fa-trash"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- table-editable -->
+
+                    <p><strong>This is some explination of the table</strong></p>
+                </div>
+                <!-- col-sm-8 -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container-fluid -->
+    </section>
+
+    <!-- ************** -->
+    <!-- HEALTH TRACKER -->
+    <!-- ************** -->
+
+    <section id="health">
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>Health</h2>
+                    <h4>The super useful enemy health tracker</h4>
+
+                    <div class="health">
+                        <form>
+                            <div id="sections">
+                                <div class="section">
+                                    <fieldset>
+                                        <p>
+                                            <input class="input-h" type="text" placeholder="Enemy">
+                                            <input class="input-h" type="text" placeholder="Health">
+                                        </p>
+                                        <p>
+                                            <button href="#" class="btn btn-custom remove sweep-to-right">Remove <i class="fa fa-trash"></i></button>
+                                        </p>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <p><a href="#" class="addsection btn btn-custom sweep-to-right"><i class="fa fa-plus"></i> Add</a></p>
+                        </form>
+                    </div>
+
+                    <p>More information...</p>
+                </div>
+                <!-- col-sm-8 -->
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-signal logo"></span>
+                </div>
+                <!-- col-sm-4 -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container-fluid bg-grey -->
+    </section>
+
+    <!-- **************** -->
+    <!-- WEBSITE PROGRESS -->
+    <!-- **************** -->
+
+    <section id="progress">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Progress</h2>
+                    <p>This website is under development, this bar tracks how har along that development is: </p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width: 25%">
+                            25%
+                        </div>
+                        <!--progress-bar progress-bar-success  -->
+                    </div>
+                    <!-- progress -->
+                </div>
+                <!-- col-sm-12 -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container-fluid bg-grey -->
+    </section>
+
+    <!-- ****************** -->
+    <!-- JAVASCRIPT IMPORTS -->
+    <!-- ****************** -->
 
     <!-- jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins-->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <script src="js/edit-table.js"></script>
 </body>
 
 </html>

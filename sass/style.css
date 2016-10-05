@@ -99,51 +99,51 @@
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
-/* line 9, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 6, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 html,
 body {
   height: 100%;
   font-family: 'Raleway'; }
 
-/* line 14, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 11, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .container-fluid {
   padding: 4em 3.5em; }
 
-/* line 18, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 15, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .bg-grey {
   background-color: #dddddd; }
 
-/* line 22, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 19, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .logo {
   color: #c81717;
   font-size: 200px; }
 
-/* line 27, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 24, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .logo-small {
   color: #c81717;
   font-size: 50px; }
 
-/* line 32, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 29, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .main {
   font-size: 4em; }
 
-/* line 36, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 33, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .secondary {
   font-size: 1.5em; }
 
-/* line 40, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 37, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .heading {
   font-family: 'Raleway';
   font-size: 8em;
   color: #DDCCEE; }
 
-/* line 46, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 44, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .lead {
   color: #DDCCEE;
   font-size: 2em;
   font-family: 'Raleway'; }
 
-/* line 52, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 50, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .custom {
   margin: 0 auto;
   width: 100%;
@@ -153,13 +153,24 @@ body {
   color: #eee;
   overflow: hidden; }
 
-/* line 62, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 60, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .custom a {
   color: #efefef;
   text-decoration: none; }
 
-/* line 67, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+/* line 65, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .v-center {
   margin-top: 7%; }
+
+@media (min-width: 767px) {
+  /* line 70, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+  /* line 76, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+  .top-nav-collapse {
+    padding: 0; } }
 
 /*# sourceMappingURL=style.css.map */

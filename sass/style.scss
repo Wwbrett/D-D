@@ -1,10 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Antic+Slab|Raleway);
-
 @import './partials/button';
-
 @import 'partials/underline-from-left';
 @import 'partials/sweep-to-right';
-
 html,
 body {
     height: 100%;
@@ -39,7 +36,8 @@ body {
 
 .heading {
     font-family: 'Raleway';
-    font-size: 8em;;
+    font-size: 8em;
+    ;
     color: #DDCCEE;
 }
 
@@ -66,4 +64,16 @@ body {
 
 .v-center {
     margin-top: 7%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
 }
