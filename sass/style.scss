@@ -18,17 +18,9 @@ body {
 
 .logo {
     color: #c81717;
-<<<<<<< HEAD
     font-size: 15em;
-=======
-    font-size: 5em;
 }
 
-.logo-small {
-    color: #c81717;
-    font-size: 50px;
->>>>>>> master
-}
 
 .main {
     font-size: 4em;
@@ -85,9 +77,5 @@ body {
 @media only screen and (max-width: 768px) {
     .logo {
         font-size: 5em;
-    }
-    
-    .logo {
-        font-size: 15em;
     }
 }
