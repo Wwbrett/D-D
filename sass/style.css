@@ -116,7 +116,7 @@ body {
 /* line 19, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .logo {
   color: #c81717;
-  font-size: 200px; }
+  font-size: 5em; }
 
 /* line 24, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
 .logo-small {
@@ -171,6 +171,9 @@ body {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
   /* line 76, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
   .top-nav-collapse {
-    padding: 0; } }
+    padding: 0; }
+  /* line 80, C:/Users/William/Desktop/DnD/Wwbrett.github.io/sass/style.scss */
+  .logo {
+    font-size: 15em; } }
 
 /*# sourceMappingURL=style.css.map */

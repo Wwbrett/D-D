@@ -18,7 +18,7 @@ body {
 
 .logo {
     color: #c81717;
-    font-size: 200px;
+    font-size: 5em;
 }
 
 .logo-small {
@@ -75,5 +75,9 @@ body {
     }
     .top-nav-collapse {
         padding: 0;
+    }
+    
+    .logo {
+        font-size: 15em;
     }
 }
