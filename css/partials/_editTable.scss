@@ -1,0 +1,31 @@
+.table-up {
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.table-down {
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.table-remove {
+    font-size: 1.3em;
+    cursor: pointer;
+    color: #c81717;
+}
+
+.table-add {
+    cursor: pointer;
+}
+
+th {
+    border-bottom: 1px solid #333;
+}
+
+th:nth-child(4) {
+    border-right: 1px solid #333;
+}
+
+td:nth-child(4) {
+    border-right: 1px solid #333;
+}

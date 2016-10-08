@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+/* line 1, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+.table-up {
+  font-size: 1.3em;
+  cursor: pointer; }
+
+/* line 6, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+.table-down {
+  font-size: 1.3em;
+  cursor: pointer; }
+
+/* line 11, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+.table-remove {
+  font-size: 1.3em;
+  cursor: pointer;
+  color: #c81717; }
+
+/* line 17, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+.table-add {
+  cursor: pointer; }
+
+/* line 21, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+th {
+  border-bottom: 1px solid #333; }
+
+/* line 25, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+th:nth-child(4) {
+  border-right: 1px solid #333; }
+
+/* line 29, C:/Users/William/Desktop/Testing/css/partials/_editTable.scss */
+td:nth-child(4) {
+  border-right: 1px solid #333; }
+
+/* line 6, C:/Users/William/Desktop/Testing/css/style.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway'; }
+
+/* line 12, C:/Users/William/Desktop/Testing/css/style.scss */
+.wrapper {
+  width: 100%;
+  background-color: #eee; }
+
+/* line 18, C:/Users/William/Desktop/Testing/css/style.scss */
+nav ul a,
+nav .brand-logo {
+  color: #444; }
+
+/* line 22, C:/Users/William/Desktop/Testing/css/style.scss */
+p {
+  font-size: 1.2em;
+  line-height: 2rem; }
+
+/* line 27, C:/Users/William/Desktop/Testing/css/style.scss */
+.button-collapse {
+  color: #26a69a; }
+
+/* line 31, C:/Users/William/Desktop/Testing/css/style.scss */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: #eee; }
+
+/* line 38, C:/Users/William/Desktop/Testing/css/style.scss */
+.parallax-container .section {
+  width: 100%; }
+
+@media only screen and (max-width: 992px) {
+  /* line 43, C:/Users/William/Desktop/Testing/css/style.scss */
+  .parallax-container .section {
+    position: absolute;
+    top: 40%; }
+  /* line 47, C:/Users/William/Desktop/Testing/css/style.scss */
+  #index-banner .section {
+    top: 10%; } }
+
+@media only screen and (max-width: 600px) {
+  /* line 53, C:/Users/William/Desktop/Testing/css/style.scss */
+  #index-banner .section {
+    top: 0; } }
+
+/* line 58, C:/Users/William/Desktop/Testing/css/style.scss */
+.icon-block {
+  padding: 0 15px; }
+
+/* line 62, C:/Users/William/Desktop/Testing/css/style.scss */
+.icon-block .material-icons {
+  font-size: inherit; }
+
+/* line 66, C:/Users/William/Desktop/Testing/css/style.scss */
+footer.page-footer {
+  margin: 0; }
+
+/* line 71, C:/Users/William/Desktop/Testing/css/style.scss */
+h1,
+.lines {
+  overflow: hidden;
+  text-align: center; }
+
+/* line 77, C:/Users/William/Desktop/Testing/css/style.scss */
+h1:before,
+h1:after {
+  background-color: #4db6ac;
+  content: "";
+  display: inline-block;
+  height: 5px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%; }
+
+/* line 88, C:/Users/William/Desktop/Testing/css/style.scss */
+.lines:before,
+.lines:after {
+  background-color: #4db6ac;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 15%; }
+
+/* line 99, C:/Users/William/Desktop/Testing/css/style.scss */
+h1:before,
+.lines:before {
+  right: 0.5em;
+  margin-left: -50%; }
+
+/* line 105, C:/Users/William/Desktop/Testing/css/style.scss */
+h1:after,
+.lines:after {
+  left: 0.5em;
+  margin-right: -50%; }
+
+/*# sourceMappingURL=style.css.map */

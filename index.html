@@ -2,408 +2,376 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <title>D&D Toolkit</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- SASS Stylesheet -->
-    <link rel="stylesheet" href="sass/style.css">
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
 
     <script src="https://use.fontawesome.com/824c4f56de.js"></script>
 </head>
 
 <body>
-
-    <!-- *************** -->
-    <!-- NAVIGATION BAR -->
-    <!-- *************** -->
-
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">D&D Toolkit</a>
-            </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a href="#about" class="page-scroll">About</a>
-                    </li>
-                    <li>
-                        <a href="#init" class="page-scroll">Initiative</a>
-                    </li>
-                    <li>
-                        <a href="#health" class="page-scroll">Health</a>
-                    </li>
-                    <li>
-                        <a href="#progress" class="page-scroll">Progress</a>
-                    </li>
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#test" class="brand-logo"> <i class="material-icons">whatshot</i>Toolkit</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#initTracker">Initiative</a></li>
+                    <li><a href="#healthTracker">Health Tracker</a></li>
                 </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li>
+                        <img src="https://openclipart.org/people/jpneok/dicedrawn.svg" alt="Dice">
+                        <a href="#test">
+                            <h4 class="teal-text lines">D&D Toolkit</h4>
+                        </a>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#initTracker">Initiative</a></li>
+                    <li><a href="#healthTracker">Health Tracker</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
-            <!-- navbar-collapse -->
-        </div>
-        <!-- container -->
-    </nav>
+        </nav>
+    </div>
 
-    <!-- *************** -->
-    <!-- TOP OF THE PAGE -->
-    <!-- *************** -->
-
-    <section id="page-top">
-        <div class="container-fluid custom">
-            <div class="row">
-                <div class="col-lg-12 text-center v-center">
-                    <h1 class="heading">D&D Tool kit</h1>
-                    <p class="lead">By William Brett</p>
-                    <button class="btn btn-custom btn-lg sweep-to-right">Lorem</button>
-                    <br>
-                    <br>
-                    <img class="heroImage" src="images/night-sky.jpeg" alt="heroImage" width="100%" height="100%">
-                    <br>
-                    <br>
-                    <h3>Alerts</h3>
-
-                    <div class="alert alert-info alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        This site is still under construction. Remove this message by pressing the 'x' <strong>----></strong>
-                    </div>
-                    <!-- alert alert-info alert-dismissable -->
-
+    <div id="index-banner" class="parallax-container">
+        <div id="test" class="section no-pad-bot scrollSpy">
+            <div class="container">
+                <br>
+                <br>
+                <h1 class="header center">D&D Toolkit</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light lines">A simple set of tools to keep track of the action during a game</h5>
                 </div>
-                <!-- col-lg-12 text-center v-center -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- Container-fluid custom -->
-    </section>
-
-
-    <section id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h2>About</h2>
-                    <h4>This will be the part about me and what the program does.</h4>
-                    <p>More information... and a button that will link to my social media or some stuff like that, I don't know</p>
-                    <button class="btn btn-custom btn-lg sweep-to-right">Link</button>
-                    <br>
-                    <br>
-                </div>
-                <!-- col-sm-8 -->
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-user logo"></span>
-                </div>
-                <!-- col-sm-4 -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container-fluid bg-grey -->
-    </section>
-    <!-- ****************** -->
-    <!-- INITIATIVE TRACKER -->
-    <!-- ****************** -->
-    <section id="init">
-        <div class="container-fluid bg-grey">
-            <div class="row">
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-sort-by-attributes-alt logo"></span>
-                </div>
-                <!-- col-sm-4 -->
-                <div class="col-sm-8">
-                    <h2>Initiative Table</h2>
-                    <h4>This will be where the initiative table will be placed. I would do all of this using php includes to make the code neater, but then github pages won't work</h4>
-
-                    <div id="table" class="table-editable">
-                        <table class="table initTable">
-                            <tr>
-                                <th>Name</th>
-                                <th>Value</th>
-                                <th>Move</th>
-                                <th>Delete</th>
-                                <th>
-                                    <span class="table-add">
-                            <i class="fa fa-plus-circle"></i>
-                        </span>
-                                </th>
-                                <th>
-                                    <FORM>
-                                        <a class="table-add" onclick="history.go(0)">
-                                            <i class="fa fa-refresh"></i>
-                                        </a>
-                                    </FORM>
-                                </th>
-                            </tr>
-                            <tr>
-                                <!-- BEAKER -->
-                                <td contenteditable="true">Ramas</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!-- EUAN -->
-                                <td contenteditable="true">Theren</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <!-- CAT -->
-                                <td contenteditable="true">Matilda</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!-- PETER -->
-                                <td contenteditable="true">Kasper</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!-- CARYS -->
-                                <td contenteditable="true">Lizard</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!-- FINGAL -->
-                                <td contenteditable="true">Fingal</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!-- NUALA -->
-                                <td contenteditable="true">Nuala</td>
-                                <td contenteditable="true">20</td>
-                                <td>
-                                    <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <!-- This is the clonable table line -->
-                            <tr class="hide">
-                                <td contenteditable="true">Untitled</td>
-                                <td contenteditable="true">1</td>
-                                <td>
-                                    <span class="table-up">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                    <span class="table-down">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="table-remove">
-                                        <i class="fa fa-trash"></i>
-                                    </span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <!-- table-editable -->
-
-                    <p><strong>This is some explination of the table</strong></p>
-                </div>
-                <!-- col-sm-8 -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container-fluid -->
-    </section>
-
-    <!-- ************** -->
-    <!-- HEALTH TRACKER -->
-    <!-- ************** -->
-
-    <section id="health">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h2>Health</h2>
-                    <h4>The super useful enemy health tracker</h4>
-
-                    <div class="health">
-                        <form>
-                            <div id="sections">
-                                <div class="section">
-                                    <fieldset>
-                                        <p>
-                                            <input class="input-h" type="text" placeholder="Enemy">
-                                            <input class="input-h" type="text" placeholder="Health">
-                                        </p>
-                                        <p>
-                                            <button href="#" class="btn btn-custom remove sweep-to-right">Remove <i class="fa fa-trash"></i></button>
-                                        </p>
-                                    </fieldset>
-                                </div>
-                            </div>
-                            <p><a href="#" class="addsection btn btn-custom sweep-to-right"><i class="fa fa-plus"></i> Add</a></p>
-                        </form>
-                    </div>
-
-                    <p>More information...</p>
+                <div class="row center">
+                    <a href="#about" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
                 </div>
                 <br>
-                <!-- col-sm-8 -->
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-plus logo"></span>
-                </div>
-                <!-- col-sm-4 -->
+                <br>
+
             </div>
-            <!-- row -->
         </div>
-        <!-- container-fluid bg-grey -->
-    </section>
+        <div class="parallax"><img src="images/background_1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
 
-    <!-- **************** -->
-    <!-- WEBSITE PROGRESS -->
-    <!-- **************** -->
 
-    <section id="progress">
-        <div class="container-fluid bg-grey">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Progress</h2>
-                    <p>This website is under development, this bar tracks how har along that development is: </p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" style="width: 70%">
-                            70%
+    <div class="wrapper z-depth-4">
+        <div class="container">
+            <div class="section">
+                <div id="about" class="row scrollSpy">
+                    <h4 class="center lines">About</h4>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">low_priority</i></h2>
+                            <h5 class="center lines">Initiative Chart</h5>
+
+                            <p>The initiative tracker is designed so that the DM can easily know when each player is supposed to take their turn. It eliminates the need for pieces of paper with names and numbers and the difficulty of figuring out who got the highest number. Simply change the number to reflect the character's roll and sort it using the arrows.</p>
                         </div>
-                        <!--progress-bar progress-bar-success  -->
                     </div>
-                    <!-- progress -->
-                </div>
-                <!-- col-sm-12 -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container-fluid bg-grey -->
-    </section>
 
-    <footer>
-        <p>
-            <i class="fa fa-copyright" aria-hidden="true"></i>
-            William Brett 2016
-        </p>
-        <p>
-            The source code for this website is available on
-            <a href="https://github.com/Wwbrett/Wwbrett.github.io">GitHub</a> It is available under the MIT license, viewable on the project's GitHub page.
-        </p>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">add</i></h2>
+                            <h5 class="center lines">Health Tracker</h5>
+
+                            <p>As with the initiative, keeping track of the enemies health during an encounter can be tedious, and can detract from the game because the DM needs to constantly cross out numbers on an index card. This tool means you add however many enemies there are and when they're dead you can remove the entry.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">person</i></h2>
+                            <h5 class="center lines">About Me</h5>
+
+                            <p>Hi, I'm William, I created this website because I was struggling with certain aspects of being a DM, and thought others might struggle too. This also serves as a way to enhance my web development skills and learn about new frameworks and methodologies.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12">Never again will you need to use hundreds of pieces of paper to track an encounter's initiative</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background_2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="wrapper z-depth-4">
+        <div class="container">
+            <div class="section">
+
+                <div id="initTracker" class="row scrollSpy">
+                    <div class="col s12 center">
+                        <i class="mdi-content-send brown-text"></i>
+                        <h4 class="lines">Initiative Chart</h4>
+                        <div id="table" class="table-editable">
+                            <table class="table initTable">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>1d20</th>
+                                    <th>Move</th>
+                                    <th>Delete</th>
+                                    <th>
+                                        <span class="table-add">
+                            <i class="material-icons">add_circle</i>
+                        </span>
+                                    </th>
+                                    <th>
+                                        <FORM>
+                                            <a class="table-add" onclick="history.go(0)">
+                                                <i class="material-icons">refresh</i>
+                                            </a>
+                                        </FORM>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <!-- BEAKER -->
+                                    <td contenteditable="true">Ramas</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <!-- EUAN -->
+                                    <td contenteditable="true">Theren</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <!-- CAT -->
+                                    <td contenteditable="true">Matilda</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <!-- PETER -->
+                                    <td contenteditable="true">Kasper</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <!-- CARYS -->
+                                    <td contenteditable="true">Lizard</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <!-- FINGAL -->
+                                    <td contenteditable="true">Fingal</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <!-- NUALA -->
+                                    <td contenteditable="true">Nuala</td>
+                                    <td contenteditable="true">20</td>
+                                    <td>
+                                        <span class="table-up glyphicon">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down glyphicon">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <!-- This is the clonable table line -->
+                                <tr class="hide">
+                                    <td contenteditable="true">Untitled</td>
+                                    <td contenteditable="true">1</td>
+                                    <td>
+                                        <span class="table-up">
+                                        <i class="fa fa-long-arrow-up"></i>
+                                    </span>
+                                        <span class="table-down">
+                                        <i class="fa fa-long-arrow-down"></i>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove">
+                                        <i class="material-icons">clear</i>
+                                    </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12">A simple way to know exactly how many hit points an enemy has</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background_4.jpg" alt="Unsplashed background img 4"></div>
+    </div>
+
+    <div class="wrapper z-depth-4">
+        <div class="container">
+            <div class="section">
+                <div id="healthTracker" class="row scrollSpy">
+                    <h4 class="center lines">Health Tracker</h4>
+                    <div class="col s12">
+                        <div>
+                            <div class="health">
+                                <form>
+                                    <div id="sections">
+                                        <div class="section">
+                                            <fieldset>
+                                                <div class="input-field">
+                                                    <input class="input-h validate" type="text" id="enemy">
+                                                    <label for="enemy">Enemy</label>
+                                                </div>
+                                                <div class="input-field">
+                                                    <input class="input-h validate" type="text" id="health">
+                                                    <label for="health">Health</label>
+                                                </div>
+                                                <p>
+                                                    <button class="remove btn waves-effect waves-light teal lighten-1">Remove <i class="material-icons">clear</i></button>
+                                                </p>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <button class="addsection btn waves-effect waves-light teal lighten-1"><i class="material-icons">add</i> Add</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12">A copy of something that someone else has most likely done before, and most likely done better</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background_3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <footer class="page-footer teal">
+        <div class="footer-copyright">
+            <div class="container">
+                Made by William Brett using the <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> framework. None of the artwork is my own and I do not take credit for any of it
+            </div>
+        </div>
     </footer>
 
-    <!-- ****************** -->
-    <!-- JAVASCRIPT IMPORTS -->
-    <!-- ****************** -->
 
-    <!-- jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins-->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
     <script src="js/edit-table.js"></script>
 </body>
 
