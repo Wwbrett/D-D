@@ -12,6 +12,15 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" />
 
     <script src="https://use.fontawesome.com/824c4f56de.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+    <script type="text/javascript">
+        $(init);
+
+        function init() {
+            $('#dragMe').draggable();
+        }
+    </script>
 </head>
 
 <body>
@@ -24,6 +33,7 @@
                     <li><a href="#initTracker">Initiative</a></li>
                     <li><a href="#healthTracker">Health Tracker</a></li>
                     <li><a href="#notes">Notes</a></li>
+                    <li><a href="#progress">Progress</a></li>
                 </ul>
 
                 <ul id="nav-mobile" class="side-nav">
@@ -37,6 +47,7 @@
                     <li><a href="#initTracker">Initiative</a></li>
                     <li><a href="#healthTracker">Health Tracker</a></li>
                     <li><a href="#notes">Notes</a></li>
+                    <li><a href="#progress">Progress</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
@@ -89,10 +100,10 @@
 
                     <div class="col s12 m4">
                         <div class="icon-block">
-                            <h2 class="center brown-text"><i class="material-icons">person</i></h2>
-                            <h5 class="center lines">About Me</h5>
+                            <h2 class="center brown-text"><i class="material-icons">line_style</i></h2>
+                            <h5 class="center lines">Notes</h5>
 
-                            <p>Hi, I'm William, I created this website because I was struggling with certain aspects of being a DM, and thought others might struggle too. This also serves as a way to enhance my web development skills and learn about new frameworks and methodologies.</p>
+                            <p>Keep notes during the game by typing in one of the boxes below, there are two of them so you can organise if you want. These notes are temporary and will be deleted when the page is refreshed. It is recommended you use this to keep track of player conditions or the name of an npc the players have just met.</p>
                         </div>
                     </div>
                 </div>
@@ -365,13 +376,16 @@
         <div class="container">
             <div id="notes" class="section scrollSpy">
                 <div class="row">
-                   <h4 class="center lines">Notes</h4>
-                    <p>Keep notes during the game by typing in one of the boxes below, there are two of them so you can organise if you want. These notes are temporary and will be deleted when the page is refreshed. It is recommended you use this to keep track of player conditions or the name of an npc the players have just met.</p>
+                    <h4 class="center lines">Notes</h4>
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s12">
                                 <textarea id="textarea1" class="materialize-textarea" rows="50"></textarea>
                                 <label for="textarea1">Notes:</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea2" class="materialize-textarea" rows="50"></textarea>
+                                <label for="textarea2">Notes:</label>
                             </div>
                             <div class="input-field col s12">
                                 <textarea id="textarea2" class="materialize-textarea" rows="50"></textarea>
@@ -395,10 +409,37 @@
         <div class="parallax"><img src="images/background_5.jpg" alt="Unsplashed background img 5"></div>
     </div>
 
+    <div class="wrapper">
+        <div class="container">
+            <div id="progress" class="section scrollSpy">
+                <div class="row">
+                    <h4 class="center lines">Progress</h4>
+                    <p>This site is not yet complete, I need to add some functions. This bar keeps track of how far along the development is:</p>
+                    <h5>Currently  40%  Completed</h5>
+                    <div class="progress">
+                        <div class="determinate" style="width: 40%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12">Still in active development, features being added all the time</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background_6.jpg" alt="Unsplashed background img 6"></div>
+    </div>
+
     <footer class="page-footer teal">
+        None of the artwork is my own and I do not take credit for any of it, I simply wished for the site to look its best. If at any time the creator of the artwork requests it be removed then I will do so.
         <div class="footer-copyright">
             <div class="container">
-                Made by William Brett using the <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> framework. None of the artwork is my own and I do not take credit for any of it
+                Made by William Brett using the <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> framework.
             </div>
         </div>
     </footer>
