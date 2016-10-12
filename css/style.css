@@ -102,13 +102,17 @@ p {
 footer.page-footer {
   margin: 0; }
 
-/* line 79, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 78, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+.point {
+  cursor: pointer; }
+
+/* line 83, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1,
 .lines {
   overflow: hidden;
   text-align: center; }
 
-/* line 85, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 89, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1:before,
 h1:after {
   background-color: #4db6ac;
@@ -119,7 +123,7 @@ h1:after {
   vertical-align: middle;
   width: 50%; }
 
-/* line 96, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 100, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .lines:before,
 .lines:after {
   background-color: #4db6ac;
@@ -130,13 +134,13 @@ h1:after {
   vertical-align: middle;
   width: 15%; }
 
-/* line 107, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 111, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1:before,
 .lines:before {
   right: 0.5em;
   margin-left: -50%; }
 
-/* line 113, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 117, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1:after,
 .lines:after {
   left: 0.5em;

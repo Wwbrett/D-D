@@ -10,17 +10,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
 
     <script src="https://use.fontawesome.com/824c4f56de.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
-
-    <script type="text/javascript">
-        $(init);
-
-        function init() {
-            $('#dragMe').draggable();
-        }
-    </script>
 </head>
 
 <body>
@@ -133,198 +126,69 @@
                         <i class="mdi-content-send brown-text"></i>
                         <h4 class="lines">Initiative Chart</h4>
                         <div id="table" class="table-editable">
-                            <table class="table initTable">
-                                <tr>
-                                    <th>Name</th>
-                                    <th>1d20</th>
-                                    <th>Move</th>
-                                    <th>Delete</th>
-                                    <th>
-                                        <span class="table-add">
-                            <i class="material-icons">add_circle</i>
-                        </span>
-                                    </th>
-                                    <th>
-                                        <FORM>
-                                            <a class="table-add" onclick="history.go(0)">
-                                                <i class="material-icons">refresh</i>
-                                            </a>
-                                        </FORM>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <!-- BEAKER -->
-                                    <td contenteditable="true">Rosalind</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <!-- EUAN -->
-                                    <td contenteditable="true">Theren</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-
-                                <tr>
-                                    <!-- CAT -->
-                                    <td contenteditable="true">Matilda</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <!-- PETER -->
-                                    <td contenteditable="true">Kasper</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <!-- CARYS -->
-                                    <td contenteditable="true">Lizard</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <!-- Fergus -->
-                                    <td contenteditable="true">Fingal</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <!-- Alexx -->
-                                    <td contenteditable="true">Nuala</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-                                
-                                <tr>
-                                    <!-- Grace -->
-                                    <td contenteditable="true">Gothsbeard</td>
-                                    <td contenteditable="true">20</td>
-                                    <td>
-                                        <span class="table-up glyphicon">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down glyphicon">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
-
-                                <!-- This is the clonable table line -->
-                                <tr class="hide">
-                                    <td contenteditable="true">Untitled</td>
-                                    <td contenteditable="true">1</td>
-                                    <td>
-                                        <span class="table-up">
-                                        <i class="fa fa-long-arrow-up"></i>
-                                    </span>
-                                        <span class="table-down">
-                                        <i class="fa fa-long-arrow-down"></i>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <span class="table-remove">
-                                        <i class="material-icons">clear</i>
-                                    </span>
-                                    </td>
-                                </tr>
+                            <table id="sort">
+                                <thead>
+                                    <tr>
+                                       <td>Sort</td>
+                                        <td>Name</td>
+                                        <td>Initiative</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Rosalind"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Lizard"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Kasper"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Matilda"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Gothsbeard"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Nuala"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Fingal"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Theren"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Monster"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                    <tr class="editRow">
+                                       <td><i class="material-icons point">menu</i></td>
+                                        <td><input type="text" value="Monster 2"></td>
+                                        <td><input type="text" value="20"></td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -442,7 +306,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -466,9 +330,11 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
     <script src="js/edit-table.js"></script>
+    <script src="js/draggable.js"></script>
 </body>
 
 </html>
