@@ -14,9 +14,14 @@
 
     <script src="https://use.fontawesome.com/824c4f56de.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/webcomponents/webcomponentsjs/v0.7.15/webcomponents-lite.min.js"></script>
+    <link rel="import" href="https://cdn.rawgit.com/zerodevx/zero-md/v0.2.0/build/zero-md.html">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/zerodevx/zero-md/v0.2.0/markdown-themes/default.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/zerodevx/zero-md/v0.2.0/highlight-themes/default.css">
 </head>
 
-<body>
+<body unresolved>
     <div class="navbar-fixed">
         <nav class="white">
             <div class="nav-wrapper container">
@@ -26,6 +31,7 @@
                     <li><a href="#initTracker">Initiative</a></li>
                     <li><a href="#healthTracker">Health Tracker</a></li>
                     <li><a href="#notes">Notes</a></li>
+                    <li><a href="#spells">Spells</a></li>
                     <li><a href="#progress">Progress</a></li>
                 </ul>
 
@@ -40,6 +46,7 @@
                     <li><a href="#initTracker">Initiative</a></li>
                     <li><a href="#healthTracker">Health Tracker</a></li>
                     <li><a href="#notes">Notes</a></li>
+                    <li><a href="#spells">Spells</a></li>
                     <li><a href="#progress">Progress</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -129,61 +136,101 @@
                             <table id="sort">
                                 <thead>
                                     <tr>
-                                       <td>Sort</td>
+                                        <td>Sort</td>
                                         <td>Name</td>
                                         <td>Initiative</td>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Rosalind"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Rosalind">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Lizard"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Lizard">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Kasper"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Kasper">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Matilda"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Matilda">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Gothsbeard"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Gothsbeard">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Nuala"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Nuala">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Fingal"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Fingal">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Theren"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Theren">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Monster"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Monster">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                     <tr class="editRow">
-                                       <td><i class="material-icons point">menu</i></td>
-                                        <td><input type="text" value="Monster 2"></td>
-                                        <td><input type="text" value="20"></td>
+                                        <td><i class="material-icons point">menu</i></td>
+                                        <td>
+                                            <input type="text" value="Monster 2">
+                                        </td>
+                                        <td>
+                                            <input type="text" value="20">
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -292,6 +339,33 @@
         <div class="parallax"><img src="images/background_5.jpg" alt="Unsplashed background img 5"></div>
     </div>
 
+    <div class="wrapper" style="min-height: 700px;">
+        <div class="container">
+            <div id="spells" class="section scrollSpy">
+                <h4 class="lines">Spell Checker</h4>
+                <div class="input-field">
+                <input class="input-h validate" type="text" id="search">
+                    <label for="search">Search</label>
+                    <button class="remove btn waves-effect waves-light teal lighten-1" id="startSearch">Search!</button>
+                </div>
+                <zero-md id="tester">
+                    <div class="md-html"></div>
+                </zero-md>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12">A simple way for a dungeon master to keep notes during the game</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/background_5.jpg" alt="Unsplashed background img 5"></div>
+    </div>
+
     <div class="wrapper">
         <div class="container">
             <div id="progress" class="section scrollSpy">
@@ -335,6 +409,7 @@
     <script src="js/init.js"></script>
     <script src="js/edit-table.js"></script>
     <script src="js/draggable.js"></script>
+    <script src="./js/b.js"></script>
 </body>
 
 </html>
