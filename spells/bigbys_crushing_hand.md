@@ -2,7 +2,7 @@ name: Bigby's Crushing Hand
 level: 5
 school: evocation
 
-# Beast Sense 
+# Bigby's Crushing Hand 
 _5th-level evocation_
 
 **Casting Time:** 1 action  
