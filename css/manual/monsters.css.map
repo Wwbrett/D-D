@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "monsters.css",
+  "sources": [
+    "monsters.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAAA,OAAO,CAAC,iDAAiD;;AAEzD,IAAI,CAAC;EACD,KAAK,EAAE,IAAK,GADV;;;AAIN,KAAK,CAAC;EACF,KAAK,EAAE,KAAM,GADV",
+  "names": []
+}
