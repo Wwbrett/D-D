@@ -31,88 +31,136 @@ th:nth-child(4) {
 td:nth-child(4) {
   border-right: 1px solid #333; }
 
-/* line 6, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 2, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-input, .tt-hint {
+  width: 396px;
+  height: 30px;
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none; }
+
+/* line 13, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-input {
+  /* UPDATE: newer versions use tt-input instead of tt-query */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+
+/* line 17, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-hint {
+  color: #999; }
+
+/* line 21, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-menu {
+  /* UPDATE: newer versions use tt-menu instead of tt-dropdown-menu */
+  width: 422px;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+/* line 32, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px; }
+
+/* line 38, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-suggestion.tt-cursor {
+  /* UPDATE: newer versions use .tt-suggestion.tt-cursor */
+  color: #fff;
+  background-color: #0097cf; }
+
+/* line 44, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.tt-suggestion p {
+  margin: 0; }
+
+/* line 7, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 html,
 body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway'; }
 
-/* line 12, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 13, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .progress {
   color: aqua; }
 
-/* line 16, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 17, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .determinate {
   width: 50%; }
 
-/* line 20, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 21, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .wrapper {
   width: 100%;
   background-color: #eee; }
 
-/* line 26, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 27, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 nav ul a,
 nav .brand-logo {
   color: #444; }
 
-/* line 30, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 31, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 p {
   font-size: 1.2em;
   line-height: 2rem; }
 
-/* line 35, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 36, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .button-collapse {
   color: #26a69a; }
 
-/* line 39, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 40, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: #eee; }
 
-/* line 46, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 47, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .parallax-container .section {
   width: 100%; }
 
 @media only screen and (max-width: 992px) {
-  /* line 51, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+  /* line 52, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
   .parallax-container .section {
     position: absolute;
     top: 40%; }
-  /* line 55, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+  /* line 56, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
   #index-banner .section {
     top: 10%; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 61, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+  /* line 62, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
   #index-banner .section {
     top: 0; } }
 
-/* line 66, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 67, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .icon-block {
   padding: 0 15px; }
 
-/* line 70, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 71, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .icon-block .material-icons {
   font-size: inherit; }
 
-/* line 74, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 75, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 footer.page-footer {
   margin: 0; }
 
-/* line 78, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 79, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .point {
   cursor: pointer; }
 
-/* line 83, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 84, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1,
 .lines {
   overflow: hidden;
   text-align: center; }
 
-/* line 89, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 90, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1:before,
 h1:after {
   background-color: #4db6ac;
@@ -123,7 +171,7 @@ h1:after {
   vertical-align: middle;
   width: 50%; }
 
-/* line 100, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 101, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 .lines:before,
 .lines:after {
   background-color: #4db6ac;
@@ -134,13 +182,13 @@ h1:after {
   vertical-align: middle;
   width: 15%; }
 
-/* line 111, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 112, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1:before,
 .lines:before {
   right: 0.5em;
   margin-left: -50%; }
 
-/* line 117, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
+/* line 118, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 h1:after,
 .lines:after {
   left: 0.5em;
