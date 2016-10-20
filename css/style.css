@@ -75,9 +75,13 @@ td:nth-child(4) {
   color: #fff;
   background-color: #0097cf; }
 
-/* line 44, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+/* line 43, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
 .tt-suggestion p {
   margin: 0; }
+
+/* line 47, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/partials/_searching.scss */
+.typeahead {
+  width: 500px !important; }
 
 /* line 7, C:/Users/William/Desktop/DnD/Wwbrett.github.io/css/style.scss */
 html,
