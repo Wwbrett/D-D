@@ -6,23 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <title>D&D Toolkit</title>
 
-    <!-- CSS  -->
+   <!-- 
+        CSS
+   **************  -->
+    <!-- Materialize CSS Files  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    
+    <!--  Custom CSS Stylesheet  -->
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <!--  JQueryUI CSS Files  -->
     <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    
+    <!--  Data Table CSS Files  -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.material.min.css">
+    
 
+   <!-- 
+        JAVASCRIPT
+   **************  -->
+    <!--  Font-Awesome Icons JS File  -->
     <script src="https://use.fontawesome.com/824c4f56de.js"></script>
+    
+    <!--  JQueryUI JS Files  -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
 
-    <script src="https://cdn.rawgit.com/webcomponents/webcomponentsjs/v0.7.15/webcomponents-lite.min.js"></script>
-    
+    <!--  Mardown Importer and Formatter JS and CSS Files  -->
     <link rel="import" href="https://cdn.rawgit.com/zerodevx/zero-md/v0.2.0/build/zero-md.html">
+    <script src="https://cdn.rawgit.com/webcomponents/webcomponentsjs/v0.7.15/webcomponents-lite.min.js"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/zerodevx/zero-md/v0.2.0/markdown-themes/default.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/zerodevx/zero-md/v0.2.0/highlight-themes/default.css">
 </head>
 
 <body unresolved>
+   <!--  NAVIGATION  -->
     <div class="navbar-fixed">
         <nav class="white">
             <div class="nav-wrapper container">
@@ -57,6 +76,7 @@
         </nav>
     </div>
 
+   <!--  BANNER  -->
     <div id="index-banner" class="parallax-container">
         <div id="test" class="section no-pad-bot scrollSpy">
             <div class="container">
@@ -75,10 +95,12 @@
             </div>
         </div>
 
+       <!--  PARALLAX 1  -->
         <div class="parallax"><img src="images/background_1.jpg" alt="Unsplashed background img 1"></div>
     </div>
 
 
+   <!--  INFORMATION  -->
     <div class="wrapper z-depth-4">
         <div class="container">
             <div class="section">
@@ -117,6 +139,7 @@
     </div>
 
 
+   <!--  PARALLAX 2  -->
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -128,6 +151,7 @@
         <div class="parallax"><img src="images/background_2.jpg" alt="Unsplashed background img 2"></div>
     </div>
 
+   <!--  INITATIVE TABLE  -->
     <div class="wrapper z-depth-4">
         <div class="container">
             <div class="section">
@@ -135,110 +159,62 @@
                 <div id="initTracker" class="row scrollSpy">
                     <div class="col s12 center">
                         <i class="mdi-content-send brown-text"></i>
-                        <h4 class="lines">Initiative Chart</h4>
-                        <div id="table" class="table-editable">
-                            <table id="sort">
-                                <thead>
-                                    <tr>
-                                        <td>Sort</td>
-                                        <td>Name</td>
-                                        <td>Initiative</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Rosalind">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Lizard">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Kasper">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Matilda">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Gothsbeard">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Nuala">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Fingal">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Theren">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Monster">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                    <tr class="editRow">
-                                        <td><i class="material-icons point">menu</i></td>
-                                        <td>
-                                            <input type="text" value="Monster 2">
-                                        </td>
-                                        <td>
-                                            <input type="text" value="20">
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <h4 class="lines">Initiative Table</h4>
+
+                        <table id="initTable" class="mdl-data-table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Initiative</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td contenteditable="true">Lizard</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Kaspar</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Fingal</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Nuala</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Gothsbeard</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Matilda</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Theren</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Rosalind</td>
+                                    <td contenteditable="true">20</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Untitled</td>
+                                    <td contenteditable="true">0</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Untitled</td>
+                                    <td contenteditable="true">0</td>
+                                </tr>
+                                <tr>
+                                    <td contenteditable="true">Untitled</td>
+                                    <td contenteditable="true">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
                     </div>
                 </div>
@@ -246,6 +222,7 @@
         </div>
     </div>
 
+   <!--  PARALLAX 3  -->
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -257,6 +234,7 @@
         <div class="parallax"><img src="./images/background_3.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
+   <!--  HEALTH TRACKING  -->
     <div class="wrapper z-depth-4">
         <div class="container">
             <div class="section">
@@ -295,17 +273,19 @@
         </div>
     </div>
 
+   <!--  PARALLAX 4  -->
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
-                    <h5 class="header col s12">A copy of something that someone else has most likely done before, and most likely done better</h5>
+                    <h5 class="header col s12">A simple way for a dungeon master to keep notes during the game</h5>
                 </div>
             </div>
         </div>
         <div class="parallax"><img src="images/background_4.jpg" alt="Unsplashed background img 4"></div>
     </div>
 
+   <!--  SIMPLE NOTES  -->
     <div class="wrapper z-depth-4">
         <div class="container">
             <div id="notes" class="section scrollSpy">
@@ -332,6 +312,7 @@
         </div>
     </div>
 
+   <!--  PARALLAX 5  -->
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -343,6 +324,7 @@
         <div class="parallax"><img src="images/background_5.jpg" alt="Unsplashed background img 5"></div>
     </div>
 
+   <!--  SPELL CHECKER  -->
     <div class="wrapper" style="min-height: 700px;">
         <div class="container">
             <div id="spells" class="section scrollSpy">
@@ -359,17 +341,19 @@
         </div>
     </div>
 
+   <!--  PARALLAX 6  -->
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
-                    <h5 class="header col s12">A simple way for a dungeon master to keep notes during the game</h5>
+                    <h5 class="header col s12">A copy of something that someone else has most likely done before, and most likely done better</h5>
                 </div>
             </div>
         </div>
         <div class="parallax"><img src="images/background_6.jpg" alt="Unsplashed background img 6"></div>
     </div>
 
+   <!--  SITE PROGRESS  -->
     <div class="wrapper">
         <div class="container">
             <div id="progress" class="section scrollSpy">
@@ -385,6 +369,7 @@
         </div>
     </div>
 
+   <!--  FOOTER  -->
     <footer class="page-footer teal">
         None of the artwork is my own and I do not take credit for any of it, I simply wished for the site to look its best. If at any time the creator of the artwork requests it be removed then I will do so.
         <div class="footer-copyright">
@@ -405,6 +390,18 @@
     <script src="js/b.js"></script>
     <script src="js/typeahead.js/typeahead.bundle.min.js"></script>
     <script src="js/autoComplete.js"></script>
+
+   <!--  Data Table Scripts  -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#initTable').dataTable({
+                "bPaginate": false,
+                "bFilter": false,
+                "bInfo": false
+            });
+        });
+    </script>
 </body>
 
 </html>
