@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
     <title>Monster Manual</title>
@@ -18,200 +17,191 @@
     <script src="https://use.fontawesome.com/824c4f56de.js"></script>
 </head>
 
-<body unresolved>
+<body>
 
-<h1 class="lines">Monster Manual</h1>
-<p class="center">Please don't judge how this looks or functions, it is still very early in development. It took me 2 hours and a desire not to write or look up monsters during a game, Ican now have a list open in a tab that can show all the monster I plan to use, and nothing else. This will definetly change, but will do the job for now I guess.</p>
+    <h2 class="lines">Monster Manual</h2>
+    <p class="center">Selecting a monster will show a stat block</p>
+    <br>
+    <br>
 
-<!--Goblin-->
-    <div class="card small">
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Goblin<i class="material-icons right">more_vert</i></span>
-      <br>
-      <span class="left">
-          <p>
-          AC: 15          <br>
-          HP: 2d6         <br>
-          Speed: 30 feet  <br>
-          XP: 50
-      </p>
-      </span>
-      <span class="right">
-          <p>
-              STR: 8  (-1)              <br>
-              DEX: 14 (+2)               <br>
-              CON: 10 (+0)               <br>
-              INT: 10 (+0)               <br>
-              WIS: 8  (-1)              <br>
-              CHA: 8  (-1)              <br>
-          </p>
-      </span>
+    <a class="waves-effect waves-light btn modal-trigger" href="#goblin">Goblin</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#g-boss">Goblin Boss</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#snake">Giant Snake</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#mimic">Mimic</a>
+
+    <!--Goblin-->
+    <div id="goblin" class="modal">
+        <div class="modal-content">
+            <h5>Goblin</h5>
+            <i>Small humanoid, neutral evil</i>
+            <p>
+                AC: 15
+                <br> HP: 2d6
+                <br> Speed: 30 feet
+                <br> XP: 50
+            </p>
+            <span class="right">
+            <p>
+                     STR: 8 (-1)
+                <br> DEX: 14 (+2)
+                <br> CON: 10 (+0)
+                <br> INT: 10 (+0)
+                <br> WIS: 8 (-1)
+                <br> CHA: 8 (-1)
+                <br>
+            </p>
+            </span>
+            <p>
+                Skills: Stealth +6
+                <br> Senses: Darkvision 60ft. Passive Perception 6
+                <br> Languages: Common, Goblin
+            </p>
+            Actions:
+            <br> Scimitar +4 (1d6+2 / S)
+            <br> Shortbow +4 (1d6+2 / P)
+            <br>
+            <br>
+            <br> Nimble Escape: Disengage and Hide become bonus actions
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Goblin<i class="material-icons right">close</i></span>
-      <span class="left">
-          <p>
-          Skills: Stealth +6 <br>
-          Senses: Darkvision 60ft.  Passive Perception 6 <br>
-          Languages: Common, Goblin
-      </p>
-      </span>
-      <span class="right">
-          Actions: <br>
-          Scimitar +4 (1d6+2 / S) <br>
-          Shortbow +4 (1d6+2 / P)
-          <br>
-          <br>
-          <br>
-          Nimble Escape: Disengage and Hide become bonus actions
-      </span>
-    </div>
-  </div>
-   
-<!-- Goblin Boss  -->
-   <div class="card small">
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Goblin Boss<i class="material-icons right">more_vert</i></span>
-      <br>
-      <span class="left">
-          <p>
-          AC: 15          <br>
-          HP: 4d6         <br>
-          Speed: 30 feet  <br>
-          XP: 200
-      </p>
-      </span>
-      <span class="right">
-          <p>
-              STR: 10  (+0)              <br>
-              DEX: 14 (+2)               <br>
-              CON: 10 (+0)               <br>
-              INT: 10 (+0)               <br>
-              WIS: 8  (-1)              <br>
-              CHA: 10  (+0)              <br>
-          </p>
-      </span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Goblin<i class="material-icons right">close</i></span>
-      <span class="left">
-          <p>
-          Skills: Stealth +6 <br>
-          Senses: Darkvision 60ft.  Passive Perception 9 <br>
-          Languages: Common, Goblin
-      </p>
-      </span>
-      <span class="right">
-          Actions: <br>
-          Multi-attack: can use scimitar twice, but the second has disadvantage <br>
-          Scimitar +4 (1d6+2 / S) <br>
-          Shortbow +4 (1d6+2 / P)
-          <br>
-          <br>
-          <br>
-          Nimble Escape: Disengage and Hide become bonus actions <br>
-          Reaction: Can swap places with another goblin when attacked
-      </span>
-    </div>
-  </div>
-   
-<!--  Giant Constricting Snake -->
-   <div class="card small">
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Giant Constricting Snake<i class="material-icons right">more_vert</i></span>
-      <br>
-      <span class="left">
-          <p>
-          AC: 12          <br>
-          HP: 1d12+5         <br>
-          Speed: 30 feet  <br>
-          XP: 400
-      </p>
-      </span>
-      <span class="right">
-          <p>
-              STR: 19  (+4)              <br>
-              DEX: 14 (+2)               <br>
-              CON: 12 (+1)               <br>
-              INT: 1 (-5)               <br>
-              WIS: 10  (+0)              <br>
-              CHA: 3  (-4)              <br>
-          </p>
-      </span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Giant Constricting Snake<i class="material-icons right">close</i></span>
-      <span class="left">
-          <p>
-          Skills: Perception +2 <br>
-          Senses: Blindsight 10ft.  Passive Perception 12 <br>
-          Languages: --
-      </p>
-      </span>
-      <span class="right">
-          Actions: <br>
-          Bite +6 (2d6 / P) <br>
-          Constrict +6 (1d8+4 / B) Target becomes grappled(escape DC: 16)
-          <br>
-          <br>
-          <br>
-      </span>
-    </div>
-  </div>
     
-<!--  Mimic  -->
-   <div class="card small">
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Mimic<i class="material-icons right">more_vert</i></span>
-      <br>
-      <span class="left">
-          <p>
-          AC: 12          <br>
-          HP: 3d8         <br>
-          Speed: 15 feet  <br>
-          XP: 450
-      </p>
-      </span>
-      <span class="right">
-          <p>
-              STR: 17  (+3)              <br>
-              DEX: 12 (+1)               <br>
-              CON: 15 (+2)               <br>
-              INT: 5 (-3)               <br>
-              WIS: 13  (+1)              <br>
-              CHA: 8  (-1)              <br>
-          </p>
-      </span>
+    <!--Goblin Boss-->
+    <div id="g-boss" class="modal">
+        <div class="modal-content">
+            <h5>Goblin Boss</h5>
+            <i>Small humanoid, neutral evil</i>
+            <p>
+                AC: 17
+                <br> HP: 6d6
+                <br> Speed: 30 feet
+                <br> XP: 200
+            </p>
+            <span class="right">
+            <p>
+                     STR: 10 (+0)
+                <br> DEX: 14 (+2)
+                <br> CON: 10 (+0)
+                <br> INT: 10 (+0)
+                <br> WIS: 8  (-1)
+                <br> CHA: 10 (+0)
+                <br>
+            </p>
+            </span>
+            <p>
+                Skills: Stealth +6
+                <br> Senses: Darkvision 60ft. Passive Perception 9
+                <br> Languages: Common, Goblin
+            </p>
+            Actions:
+            <br> Multiattack - The goblin boss can attack twice with the scimitar, but has disadvantage on the second attack.
+            <br> Scimitar +4 (1d6+2 / S)
+            <br> Shortbow +4 (1d6+2 / P)
+            <br>
+            <br>
+            <br> Nimble Escape: Disengage and Hide become bonus actions
+            <br> Redirect Attack: Can swap places with another goblin within 5 feet and swap  places with it.
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mimic<i class="material-icons right">close</i></span>
-      <span class="left">
-          <p>
-          Skills: Stealth +5 <br>
-          Senses: Darkvision 60ft.  Passive Perception 11 <br>
-          Damage Immunity: Acid <br>
-          Condition Immunity: Poison <br>
-          Languages: --
-      </p>
-      </span>
-      <span class="right">
-          Actions: <br>
-          Psudopod +5 (1d8+3 / B) Becomes subject to adhesive <br>
-          Bite +5 (1d8+3 / P) + (1d6 / Acid)
-          <br>
-          <br>
-          Shapechange: Use an action to polymorph <br>
-          False Apperance: While motionless it is indestingishable <br> from the real object <br>
-          Adhesive: Huge or smaller creature becomes <br> grappled (escape DC: 13) checks to escape have disadvantage <br>
-          Grappler: Has advantage of any enemny being grappled by it
-      </span>
-    </div>
-  </div>
     
+    <!--Giant Constrictor Snake-->
+    <div id="snake" class="modal">
+        <div class="modal-content">
+            <h5>Giant Constrictor Snake</h5>
+            <i>Huge beast, unaligned</i>
+            <p>
+                AC: 12
+                <br> HP: 8d12+8
+                <br> Speed: 30 feet
+                <br> XP: 450
+            </p>
+            <span class="right">
+            <p>
+                     STR: 19 (+4)
+                <br> DEX: 14 (+2)
+                <br> CON: 12 (+1)
+                <br> INT: 1  (-5)
+                <br> WIS: 10 (+0)
+                <br> CHA: 3  (-4)
+                <br>
+            </p>
+            </span>
+            <p>
+                Skills: Perception +2
+                <br> Senses: Blindsight 10ft. Passive Perception 12
+                <br> Languages: ---
+            </p>
+            Actions:
+            <br> Bite +6 (2d6+4 / S)
+            <br> Constrict +6 (2d8+4 / P) Target is grappled(escape DC 16)
+            <br>
+            <br>
+            <br>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+    </div>
+    
+    <!--Goblin-->
+    <div id="mimic" class="modal">
+        <div class="modal-content">
+            <h5>Mimic</h5>
+            <i>Medium monstrosity (shapechanger), neutral</i>
+            <p>
+                AC: 12
+                <br> HP: 9d8+18
+                <br> Speed: 15 feet
+                <br> XP: 450
+            </p>
+            <span class="right">
+            <p>
+                     STR: 17 (+3)
+                <br> DEX: 12 (+1)
+                <br> CON: 15 (+2)
+                <br> INT: 5  (-3)
+                <br> WIS: 13 (+1)
+                <br> CHA: 8  (-1)
+                <br>
+            </p>
+            </span>
+            <p>
+                Skills: Stealth +5
+                <br> Senses: Darkvision 60ft. Passive Perception 11
+                <br> Damage Immunity: acid
+                <br> Condition Immunity: prone
+                <br> Languages: ---
+            </p>
+            Actions:
+            <br> Psudopod +5 (1d8+3 / B)
+            <br> Bite +5 (1d8+3 / P) + (1d8 / acid) 
+            <br>
+            <br>
+            <br> Shapechanger: Can change form from object to amorphous, reverting to amorphous if it dies.
+            <br> Adhesive: Anything itattacks is grappled(escape DC 13) ability check to escape has disadvantage.
+            <br> False Apperance: When not moving it looks eactly like the object it is mimicing.
+            <br> Grappler: Advantage on attack rolls against creatures it is grappling. 
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.modal-trigger').leanModal();
+        });
+    </script>
 </body>
 
 </html>
