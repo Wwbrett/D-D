@@ -1,8 +1,17 @@
+//**********************************
+//FONT IMPORTS
+//**********************************
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+//**********************************
+//PARTIAL IMPORTS
+//**********************************
 @import './partials/editTable';
 @import './partials/searching';
 
+//**********************************
+//RESET
+//**********************************
 html,
 body {
     margin: 0;
@@ -10,6 +19,14 @@ body {
     font-family: 'Raleway';
 }
 
+.wrapper {
+    width: 100%;
+    background-color: #eee;
+}
+
+//**********************************
+//PROGRESS BAR
+//**********************************
 .progress {
     color: aqua;
 }
@@ -18,25 +35,32 @@ body {
     width: 50%;
 }
 
-.wrapper {
-    width: 100%;
-    background-color: #eee;
-}
-
+//**********************************
+//NAVIGATION
+//**********************************
 nav ul a,
 nav .brand-logo {
     color: #444;
 }
 
+//**********************************
+//PARAGRAPH &HEADING
+//**********************************
 p {
     font-size: 1.2em;
     line-height: 2rem;
 }
 
+//**********************************
+//BUTTONS
+//**********************************
 .button-collapse {
     color: #26a69a;
 }
 
+//**********************************
+//PARALLAX
+//**********************************
 .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -48,22 +72,9 @@ p {
     width: 100%;
 }
 
-@media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
-    }
-}
-
+//**********************************
+//MATERIAL ICONS
+//**********************************
 .icon-block {
     padding: 0 15px;
 }
@@ -72,14 +83,16 @@ p {
     font-size: inherit;
 }
 
+//**********************************
+//FOOTER
+//**********************************
 footer.page-footer {
     margin: 0;
 }
 
-.point {
-    cursor: pointer;
-}
-
+//**********************************
+//LINES AND HEADING
+//**********************************
 h1,
 .lines {
     overflow: hidden;
@@ -118,4 +131,35 @@ h1:after,
 .lines:after {
     left: 0.5em;
     margin-right: -50%;
+}
+
+//**********************************
+//DATA TABLE REMOVE EXTRAS
+//**********************************
+.dataTables_info,
+.dataTables_length,
+.dataTables_paginate{
+    display: none;
+}
+
+//**********************************
+//MEDIA QUERIES - TABLET
+//**********************************
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+//**********************************
+//MEDIA QUERIES - PHONE
+//**********************************
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
