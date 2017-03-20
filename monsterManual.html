@@ -19,6 +19,32 @@
 
 <body>
 
+    <!--  NAVIGATION  -->
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#test" class="brand-logo"> <i class="material-icons">whatshot</i>Toolkit</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./monsterManual.html">Manual</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li>
+                        <img src="https://openclipart.org/people/jpneok/dicedrawn.svg" alt="Dice">
+                        <a href="#test">
+                            <h4 class="teal-text lines">D&D Toolkit</h4>
+                        </a>
+                    </li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./monsterManual.html">Manual</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+    <!--****************************************************************-->
+
     <h2 class="lines">Monster Manual</h2>
     <p class="center">Selecting a monster will show a stat block</p>
     <br>
@@ -32,6 +58,7 @@
     <br>
     <br>
     <a class="waves-effect waves-light btn modal-trigger" href="#gnoll">Gnoll</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#champion">Champion</a>
 
     <!--Goblin-->
     <div id="goblin" class="modal">
@@ -71,7 +98,8 @@
             </div>
         </div>
     </div>
-    
+    <!--****************************************************************-->
+
     <!--Goblin Boss-->
     <div id="g-boss" class="modal">
         <div class="modal-content">
@@ -106,13 +134,14 @@
             <br>
             <br>
             <br> Nimble Escape: Disengage and Hide become bonus actions
-            <br> Redirect Attack: Can swap places with another goblin within 5 feet and swap  places with it.
+            <br> Redirect Attack: Can swap places with another goblin within 5 feet and swap places with it.
             <div class="modal-footer">
                 <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
             </div>
         </div>
     </div>
-    
+    <!--****************************************************************-->
+
     <!--Giant Constrictor Snake-->
     <div id="snake" class="modal">
         <div class="modal-content">
@@ -151,7 +180,8 @@
             </div>
         </div>
     </div>
-    
+    <!--****************************************************************-->
+
     <!--Mimic-->
     <div id="mimic" class="modal">
         <div class="modal-content">
@@ -183,19 +213,20 @@
             </p>
             Actions:
             <br> Psudopod +5 (1d8+3 / B)
-            <br> Bite +5 (1d8+3 / P) + (1d8 / acid) 
+            <br> Bite +5 (1d8+3 / P) + (1d8 / acid)
             <br>
             <br>
             <br> Shapechanger: Can change form from object to amorphous, reverting to amorphous if it dies.
             <br> Adhesive: Anything itattacks is grappled(escape DC 13) ability check to escape has disadvantage.
             <br> False Apperance: When not moving it looks eactly like the object it is mimicing.
-            <br> Grappler: Advantage on attack rolls against creatures it is grappling. 
+            <br> Grappler: Advantage on attack rolls against creatures it is grappling.
             <div class="modal-footer">
                 <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
             </div>
         </div>
     </div>
-    
+    <!--****************************************************************-->
+
     <!--Bugbear-->
     <div id="bugbear" class="modal">
         <div class="modal-content">
@@ -225,7 +256,7 @@
             </p>
             Actions:
             <br> Morningstar +4 (2d8+2 / P)
-            <br> Javelin +4 (2d6+2 / P) 
+            <br> Javelin +4 (2d6+2 / P)
             <br>
             <br>
             <br> Brute: A melee weapon deals one extra die of damage when the bugbear hits.
@@ -235,7 +266,8 @@
             </div>
         </div>
     </div>
-    
+    <!--****************************************************************-->
+
     <!--Gnoll-->
     <div id="gnoll" class="modal">
         <div class="modal-content">
@@ -274,6 +306,50 @@
             </div>
         </div>
     </div>
+    <!--****************************************************************-->
+
+    <!--Veteran-->
+    <div id="champion" class="modal">
+        <div class="modal-content">
+            <h5>Champion</h5>
+            <i>Medium humanoid, any alignment</i>
+            <p>
+                AC: 18
+                <br> HP: 22d8+44
+                <br> Speed: 30 feet
+                <br> XP: 5,000
+            </p>
+            <span class="right">
+            <p>
+                     STR: 20 (+5)
+                <br> DEX: 15 (+2)
+                <br> CON: 14 (+2)
+                <br> INT: 10 (+0)
+                <br> WIS: 14 (+2)
+                <br> CHA: 12 (+1)
+                <br>
+            </p>
+            </span>
+            <p>
+               Saving Throws: Str +9, Con+6
+                <br> Senses: Passive Perception 16
+                <br> Languages: Any one language
+                <br> Skills: Athletics +9, Intimidation+5, Perception+6
+            </p>
+            Actions:
+            <br> Multiattack: 3x attacks with greatsword
+            <br> Greatsword +9 (2d6+5 / S) + 2d6 when half HP
+            <br> Light Crossbow +6 (1d8+2 / P) + 2d6 when half HP
+            <br>
+            <br>
+            <br> Indomitable (2/Day). The champion rerolls a failed saving throw.
+            <br> Second Wind (Reharge after rest). Bonus action to regain 20HP.
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+    </div>
+    <!--****************************************************************-->
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
@@ -281,7 +357,7 @@
     <script src="js/init.js"></script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.modal-trigger').leanModal();
         });
     </script>
